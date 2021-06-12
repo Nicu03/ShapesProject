@@ -1,8 +1,12 @@
 package models;
 
-public class Circle implements Shapes{
+public class Circle extends Shapes {
+    public Circle(String name) {
+        super(name);
+    }
     @Override
     public String area() {
-        return " πR²";
+        return "πR²";
     }
 }
+

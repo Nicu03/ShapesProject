@@ -1,6 +1,9 @@
 package models;
 
-public class Rectangle implements Shapes{
+public class Rectangle extends Shapes {
+    public Rectangle(String name) {
+        super(name);
+    }
 
     @Override
     public String area() {
